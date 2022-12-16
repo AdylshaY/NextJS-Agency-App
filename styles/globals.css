@@ -15,12 +15,12 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.circle {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100;
+  opacity: 0.1;
+  margin: auto;
 }
